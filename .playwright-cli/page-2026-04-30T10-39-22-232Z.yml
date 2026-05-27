@@ -1,0 +1,953 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - paragraph [ref=e5]: Lična polica • ažurirano 30.04.2026.
+      - heading "Moja kolekcija društvenih igara" [level=1] [ref=e6]
+      - paragraph [ref=e7]: Brz pregled kutija, cena i izvora za kupovinu, uz lične ocene koje ostaju sačuvane u ovom pregledaču.
+      - generic [ref=e8]:
+        - link "Pogledaj kolekciju" [ref=e9] [cursor=pointer]:
+          - /url: "#kolekcija"
+          - img [ref=e988]
+          - text: Pogledaj kolekciju
+        - button "Resetuj ocene" [ref=e15] [cursor=pointer]:
+          - img [ref=e993]
+          - text: Resetuj ocene
+    - generic "Izabrane kutije iz kolekcije" [ref=e19]:
+      - img "Zemlja" [ref=e20]
+      - img "Pandemic" [ref=e21]
+      - img "Morska so i papir" [ref=e22]
+      - img "Carcassonne" [ref=e23]
+  - region "Sažetak kolekcije" [ref=e24]:
+    - generic [ref=e25]:
+      - generic [ref=e26]: "30"
+      - paragraph [ref=e27]: Igre i špilovi
+    - generic [ref=e28]:
+      - generic [ref=e29]: 92.345 RSD
+      - paragraph [ref=e30]: Procena vrednosti
+    - generic [ref=e31]:
+      - generic [ref=e32]: "1"
+      - paragraph [ref=e33]: Ocenjeno
+    - generic [ref=e34]:
+      - generic [ref=e35]: "25"
+      - paragraph [ref=e36]: Srpski izvori
+  - main [ref=e37]:
+    - region "Pretraga i filteri" [ref=e38]:
+      - generic [ref=e39]:
+        - img [ref=e996]
+        - searchbox [ref=e43]
+      - generic "Filter kolekcije" [ref=e44]:
+        - button "Sve" [ref=e45] [cursor=pointer]
+        - button "Srpski izvori" [ref=e46] [cursor=pointer]
+        - button "Na stanju" [ref=e47] [cursor=pointer]
+        - button "Ocenjeno" [ref=e48] [cursor=pointer]
+      - generic [ref=e49]:
+        - img [ref=e999]
+        - combobox [ref=e53]:
+          - option "Ime A-Š" [selected]
+          - option "Cena opadajuće"
+          - option "Cena rastuće"
+          - option "Moja ocena"
+    - generic [ref=e54]:
+      - heading "Katalog" [level=2] [ref=e55]
+      - paragraph [ref=e56]: 30 prikazanih stavki
+    - generic [ref=e57]:
+      - article [ref=e1002]:
+        - generic [ref=e1003]:
+          - generic [ref=e1004]: Na stanju
+          - img "7 Wonders Duel na srpskom" [ref=e1005]
+        - generic [ref=e1006]:
+          - generic [ref=e1007]:
+            - heading "7 Wonders Duel na srpskom" [level=3] [ref=e1008]
+            - generic [ref=e1009]: SR
+          - paragraph [ref=e1010]: 7 Wonders Duel
+          - paragraph [ref=e1011]: Napet duel civilizacija za dva igrača, sa vojnim, naučnim i poenterskim putevima do pobede.
+          - generic [ref=e1012]:
+            - generic [ref=e1013]: 2 igrača
+            - generic [ref=e1014]: draft
+            - generic [ref=e1015]: strategija
+          - generic [ref=e1016]:
+            - generic [ref=e1017]:
+              - generic [ref=e1018]: 3.600 RSD
+              - generic [ref=e1019]: Društvene igre
+            - generic [ref=e1020]:
+              - generic [ref=e1021]: Moja ocena
+              - group "Oceni 7 Wonders Duel na srpskom" [ref=e1022]:
+                - button "1 od 5" [ref=e1023] [cursor=pointer]: ★
+                - button "2 od 5" [ref=e1024] [cursor=pointer]: ★
+                - button "3 od 5" [ref=e1025] [cursor=pointer]: ★
+                - button "4 od 5" [ref=e1026] [cursor=pointer]: ★
+                - button "5 od 5" [ref=e1027] [cursor=pointer]: ★
+            - link "Pogledaj izvor" [ref=e1028] [cursor=pointer]:
+              - /url: https://www.drustveneigre.rs/7-Wonders-Duel-na-srpskom
+              - img [ref=e1029]
+              - text: Pogledaj izvor
+      - article [ref=e1033]:
+        - generic [ref=e1034]:
+          - generic [ref=e1035]: Regionalna cena
+          - img "Bandida" [ref=e1036]
+        - generic [ref=e1037]:
+          - generic [ref=e1038]:
+            - heading "Bandida" [level=3] [ref=e1039]
+            - generic [ref=e1040]: EN/SLO
+          - paragraph [ref=e1041]: "U listi: Badida"
+          - paragraph [ref=e1042]: "Nastavak Bandida sa tri načina igre: uhvatiti Banditu, pomoći joj da pobegne ili spojiti oba špila."
+          - generic [ref=e1043]:
+            - generic [ref=e1044]: kooperativno
+            - generic [ref=e1045]: džepno
+            - generic [ref=e1046]: karte
+          - generic [ref=e1047]:
+            - generic [ref=e1048]:
+              - generic [ref=e1049]: 11,90 EUR (oko 1.400 RSD)
+              - generic [ref=e1050]: Družabne igre
+            - generic [ref=e1051]:
+              - generic [ref=e1052]: Moja ocena
+              - group "Oceni Bandida" [ref=e1053]:
+                - button "1 od 5" [ref=e1054] [cursor=pointer]: ★
+                - button "2 od 5" [ref=e1055] [cursor=pointer]: ★
+                - button "3 od 5" [ref=e1056] [cursor=pointer]: ★
+                - button "4 od 5" [ref=e1057] [cursor=pointer]: ★
+                - button "5 od 5" [ref=e1058] [cursor=pointer]: ★
+            - link "Pogledaj izvor" [ref=e1059] [cursor=pointer]:
+              - /url: https://druzabneigre.si/igra/bandida/
+              - img [ref=e1060]
+              - text: Pogledaj izvor
+      - article [ref=e1064]:
+        - generic [ref=e1065]:
+          - generic [ref=e1066]: Na stanju
+          - img "Bandido" [ref=e1067]
+        - generic [ref=e1068]:
+          - generic [ref=e1069]:
+            - heading "Bandido" [level=3] [ref=e1070]
+            - generic [ref=e1071]: SR
+          - paragraph [ref=e1072]: Bandido
+          - paragraph [ref=e1073]: Džepna kooperativna igra zatvaranja tunela pre nego što Bandido pobegne iz zatvora.
+          - generic [ref=e1074]:
+            - generic [ref=e1075]: kooperativno
+            - generic [ref=e1076]: džepno
+            - generic [ref=e1077]: porodično
+          - generic [ref=e1078]:
+            - generic [ref=e1079]:
+              - generic [ref=e1080]: 1.000 RSD
+              - generic [ref=e1081]: Društvene igre
+            - generic [ref=e1082]:
+              - generic [ref=e1083]: Moja ocena
+              - group "Oceni Bandido" [ref=e1084]:
+                - button "1 od 5" [ref=e1085] [cursor=pointer]: ★
+                - button "2 od 5" [ref=e1086] [cursor=pointer]: ★
+                - button "3 od 5" [ref=e1087] [cursor=pointer]: ★
+                - button "4 od 5" [ref=e1088] [cursor=pointer]: ★
+                - button "5 od 5" [ref=e1089] [cursor=pointer]: ★
+            - link "Pogledaj izvor" [ref=e1090] [cursor=pointer]:
+              - /url: https://www.drustveneigre.rs/Bandido
+              - img [ref=e1091]
+              - text: Pogledaj izvor
+      - article [ref=e1095]:
+        - generic [ref=e1096]:
+          - generic [ref=e1097]: Na stanju
+          - img "Carcassonne na srpskom" [ref=e1098]
+        - generic [ref=e1099]:
+          - generic [ref=e1100]:
+            - heading "Carcassonne na srpskom" [level=3] [ref=e1101]
+            - generic [ref=e1102]: SR
+          - paragraph [ref=e1103]: Carcassonne
+          - paragraph [ref=e1104]: Postavljanje pločica, meeplovi i srednjovekovni pejzaž koji svaka partija izgradi drugačije.
+          - generic [ref=e1105]:
+            - generic [ref=e1106]: tile placement
+            - generic [ref=e1107]: klasik
+            - generic [ref=e1108]: porodično
+          - generic [ref=e1109]:
+            - generic [ref=e1110]:
+              - generic [ref=e1111]: 3.200 RSD
+              - generic [ref=e1112]: Društvene igre
+            - generic [ref=e1113]:
+              - generic [ref=e1114]: Moja ocena
+              - group "Oceni Carcassonne na srpskom" [ref=e1115]:
+                - button "1 od 5" [ref=e1116] [cursor=pointer]: ★
+                - button "2 od 5" [ref=e1117] [cursor=pointer]: ★
+                - button "3 od 5" [ref=e1118] [cursor=pointer]: ★
+                - button "4 od 5" [ref=e1119] [cursor=pointer]: ★
+                - button "5 od 5" [ref=e1120] [cursor=pointer]: ★
+            - link "Pogledaj izvor" [ref=e1121] [cursor=pointer]:
+              - /url: https://www.drustveneigre.rs/Carcassonne-SR
+              - img [ref=e1122]
+              - text: Pogledaj izvor
+      - article [ref=e1126]:
+        - generic [ref=e1127]:
+          - generic [ref=e1128]: Na stanju
+          - img "Cards Against Humanity" [ref=e1129]
+        - generic [ref=e1130]:
+          - generic [ref=e1131]:
+            - heading "Cards Against Humanity" [level=3] [ref=e1132]
+            - generic [ref=e1133]: EN
+          - paragraph [ref=e1134]: "U listi: Cards against humans"
+          - paragraph [ref=e1135]: Party igra za odrasle sa crnim humorom i odgovorima koji namerno prelaze granice pristojnosti.
+          - generic [ref=e1136]:
+            - generic [ref=e1137]: party
+            - generic [ref=e1138]: karte
+            - generic [ref=e1139]: 18+
+          - generic [ref=e1140]:
+            - generic [ref=e1141]:
+              - generic [ref=e1142]: 6.990 RSD
+              - generic [ref=e1143]: Bottle Gnome
+            - generic [ref=e1144]:
+              - generic [ref=e1145]: Moja ocena
+              - group "Oceni Cards Against Humanity" [ref=e1146]:
+                - button "1 od 5" [ref=e1147] [cursor=pointer]: ★
+                - button "2 od 5" [ref=e1148] [cursor=pointer]: ★
+                - button "3 od 5" [ref=e1149] [cursor=pointer]: ★
+                - button "4 od 5" [ref=e1150] [cursor=pointer]: ★
+                - button "5 od 5" [ref=e1151] [cursor=pointer]: ★
+            - link "Pogledaj izvor" [ref=e1152] [cursor=pointer]:
+              - /url: https://gnom.rs/cards-against-humanity-international-edition-sr
+              - img [ref=e1153]
+              - text: Pogledaj izvor
+      - article [ref=e1157]:
+        - generic [ref=e1158]:
+          - generic [ref=e1159]: Na stanju
+          - img "Citadele" [ref=e1160]
+        - generic [ref=e1161]:
+          - generic [ref=e1162]:
+            - heading "Citadele" [level=3] [ref=e1163]
+            - generic [ref=e1164]: SR
+          - paragraph [ref=e1165]: Citadels
+          - paragraph [ref=e1166]: Izgradnja grada i izbor likova, sa blefom i malim ratom oko toga ko će kome pokvariti plan.
+          - generic [ref=e1167]:
+            - generic [ref=e1168]: karte
+            - generic [ref=e1169]: blef
+            - generic [ref=e1170]: gradnja
+          - generic [ref=e1171]:
+            - generic [ref=e1172]:
+              - generic [ref=e1173]: 4.000 RSD
+              - generic [ref=e1174]: Društvene igre
+            - generic [ref=e1175]:
+              - generic [ref=e1176]: Moja ocena
+              - group "Oceni Citadele" [ref=e1177]:
+                - button "1 od 5" [ref=e1178] [cursor=pointer]: ★
+                - button "2 od 5" [ref=e1179] [cursor=pointer]: ★
+                - button "3 od 5" [ref=e1180] [cursor=pointer]: ★
+                - button "4 od 5" [ref=e1181] [cursor=pointer]: ★
+                - button "5 od 5" [ref=e1182] [cursor=pointer]: ★
+            - link "Pogledaj izvor" [ref=e1183] [cursor=pointer]:
+              - /url: https://www.drustveneigre.rs/Citadels-Drustvena-Igra
+              - img [ref=e1184]
+              - text: Pogledaj izvor
+      - article [ref=e1188]:
+        - generic [ref=e1189]:
+          - generic [ref=e1190]: Na stanju
+          - img "Codenames Duet na srpskom" [ref=e1191]
+        - generic [ref=e1192]:
+          - generic [ref=e1193]:
+            - heading "Codenames Duet na srpskom" [level=3] [ref=e1194]
+            - generic [ref=e1195]: SR
+          - paragraph [ref=e1196]: Codenames Duet
+          - paragraph [ref=e1197]: Kooperativni Codenames za dvoje, sa ograničenom komunikacijom i zajedničkim misijama.
+          - generic [ref=e1198]:
+            - generic [ref=e1199]: 2 igrača
+            - generic [ref=e1200]: kooperativno
+            - generic [ref=e1201]: asocijacije
+          - generic [ref=e1202]:
+            - generic [ref=e1203]:
+              - generic [ref=e1204]: 2.600 RSD
+              - generic [ref=e1205]: Društvene igre
+            - generic [ref=e1206]:
+              - generic [ref=e1207]: Moja ocena
+              - group "Oceni Codenames Duet na srpskom" [ref=e1208]:
+                - button "1 od 5" [ref=e1209] [cursor=pointer]: ★
+                - button "2 od 5" [ref=e1210] [cursor=pointer]: ★
+                - button "3 od 5" [ref=e1211] [cursor=pointer]: ★
+                - button "4 od 5" [ref=e1212] [cursor=pointer]: ★
+                - button "5 od 5" [ref=e1213] [cursor=pointer]: ★
+            - link "Pogledaj izvor" [ref=e1214] [cursor=pointer]:
+              - /url: https://www.drustveneigre.rs/Codenames-Duet-na-srpskom
+              - img [ref=e1215]
+              - text: Pogledaj izvor
+      - article [ref=e1219]:
+        - generic [ref=e1220]:
+          - generic [ref=e1221]: Na stanju
+          - img "Codenames na srpskom" [ref=e1222]
+        - generic [ref=e1223]:
+          - generic [ref=e1224]:
+            - heading "Codenames na srpskom" [level=3] [ref=e1225]
+            - generic [ref=e1226]: SR
+          - paragraph [ref=e1227]: Codenames
+          - paragraph [ref=e1228]: Asocijacije, timovi i jedan pogrešan trag koji može sve da preokrene.
+          - generic [ref=e1229]:
+            - generic [ref=e1230]: party
+            - generic [ref=e1231]: asocijacije
+            - generic [ref=e1232]: timovi
+          - generic [ref=e1233]:
+            - generic [ref=e1234]:
+              - generic [ref=e1235]: 2.600 RSD
+              - generic [ref=e1236]: Društvene igre
+            - generic [ref=e1237]:
+              - generic [ref=e1238]: Moja ocena
+              - group "Oceni Codenames na srpskom" [ref=e1239]:
+                - button "1 od 5" [ref=e1240] [cursor=pointer]: ★
+                - button "2 od 5" [ref=e1241] [cursor=pointer]: ★
+                - button "3 od 5" [ref=e1242] [cursor=pointer]: ★
+                - button "4 od 5" [ref=e1243] [cursor=pointer]: ★
+                - button "5 od 5" [ref=e1244] [cursor=pointer]: ★
+            - link "Pogledaj izvor" [ref=e1245] [cursor=pointer]:
+              - /url: https://www.drustveneigre.rs/Codenames-na-srpskom
+              - img [ref=e1246]
+              - text: Pogledaj izvor
+      - article [ref=e1250]:
+        - generic [ref=e1251]:
+          - generic [ref=e1252]: Cena pronađena
+          - img "Heraldica" [ref=e1253]
+        - generic [ref=e1254]:
+          - generic [ref=e1255]:
+            - heading "Heraldica" [level=3] [ref=e1256]
+            - generic [ref=e1257]: EN
+          - paragraph [ref=e1258]: Heraldica
+          - paragraph [ref=e1259]: Apstraktna igra grbova i pločica u kojoj plemićke kuće pokušavaju da nametnu svoj simbol.
+          - generic [ref=e1260]:
+            - generic [ref=e1261]: apstraktno
+            - generic [ref=e1262]: pločice
+            - generic [ref=e1263]: heraldika
+          - generic [ref=e1264]:
+            - generic [ref=e1265]:
+              - generic [ref=e1266]: 2.975 RSD
+              - generic [ref=e1267]: Najbolja Cena
+            - generic [ref=e1268]:
+              - generic [ref=e1269]: Moja ocena
+              - group "Oceni Heraldica" [ref=e1270]:
+                - button "1 od 5" [ref=e1271] [cursor=pointer]: ★
+                - button "2 od 5" [ref=e1272] [cursor=pointer]: ★
+                - button "3 od 5" [ref=e1273] [cursor=pointer]: ★
+                - button "4 od 5" [ref=e1274] [cursor=pointer]: ★
+                - button "5 od 5" [ref=e1275] [cursor=pointer]: ★
+            - link "Pogledaj izvor" [ref=e1276] [cursor=pointer]:
+              - /url: https://najboljacena.rs/p/697774/drustvena-igra---heraldica.html
+              - img [ref=e1277]
+              - text: Pogledaj izvor
+      - article [ref=e1281]:
+        - generic [ref=e1282]:
+          - generic [ref=e1283]: Nema na stanju
+          - img "Illusion" [ref=e1284]
+        - generic [ref=e1285]:
+          - generic [ref=e1286]:
+            - heading "Illusion" [level=3] [ref=e1287]
+            - generic [ref=e1288]: SR
+          - paragraph [ref=e1289]: "U listi: Ilusion"
+          - paragraph [ref=e1290]: Vizuelna procena procenata boje. Jednostavno pravilo, ali oči stalno prave problem.
+          - generic [ref=e1291]:
+            - generic [ref=e1292]: brzo
+            - generic [ref=e1293]: vizuelno
+            - generic [ref=e1294]: karte
+          - generic [ref=e1295]:
+            - generic [ref=e1296]:
+              - generic [ref=e1297]: 1.500 RSD
+              - generic [ref=e1298]: Društvene igre
+            - generic [ref=e1299]:
+              - generic [ref=e1300]: Moja ocena
+              - group "Oceni Illusion" [ref=e1301]:
+                - button "1 od 5" [ref=e1302] [cursor=pointer]: ★
+                - button "2 od 5" [ref=e1303] [cursor=pointer]: ★
+                - button "3 od 5" [ref=e1304] [cursor=pointer]: ★
+                - button "4 od 5" [ref=e1305] [cursor=pointer]: ★
+                - button "5 od 5" [ref=e1306] [cursor=pointer]: ★
+            - link "Pogledaj izvor" [ref=e1307] [cursor=pointer]:
+              - /url: https://www.drustveneigre.rs/Illusion
+              - img [ref=e1308]
+              - text: Pogledaj izvor
+      - article [ref=e1312]:
+        - generic [ref=e1313]:
+          - generic [ref=e1314]: Nema na stanju
+          - img "Jenga" [ref=e1315]
+        - generic [ref=e1316]:
+          - generic [ref=e1317]:
+            - heading "Jenga" [level=3] [ref=e1318]
+            - generic [ref=e1319]: EN/SR
+          - paragraph [ref=e1320]: Jenga
+          - paragraph [ref=e1321]: Drvena kula, mirna ruka i univerzalna panika čim se sto malo zaljulja.
+          - generic [ref=e1322]:
+            - generic [ref=e1323]: spretnost
+            - generic [ref=e1324]: porodično
+            - generic [ref=e1325]: klasik
+          - generic [ref=e1326]:
+            - generic [ref=e1327]:
+              - generic [ref=e1328]: 3.300 RSD
+              - generic [ref=e1329]: Društvene igre
+            - generic [ref=e1330]:
+              - generic [ref=e1331]: Moja ocena
+              - group "Oceni Jenga" [ref=e1332]:
+                - button "1 od 5" [ref=e1333] [cursor=pointer]: ★
+                - button "2 od 5" [ref=e1334] [cursor=pointer]: ★
+                - button "3 od 5" [ref=e1335] [cursor=pointer]: ★
+                - button "4 od 5" [ref=e1336] [cursor=pointer]: ★
+                - button "5 od 5" [ref=e1337] [cursor=pointer]: ★
+            - link "Pogledaj izvor" [ref=e1338] [cursor=pointer]:
+              - /url: https://www.drustveneigre.rs/Jenga
+              - img [ref=e1339]
+              - text: Pogledaj izvor
+      - article [ref=e1343]:
+        - generic [ref=e1344]:
+          - generic [ref=e1345]: Na stanju
+          - img "Mikado" [ref=e1346]
+        - generic [ref=e1347]:
+          - generic [ref=e1348]:
+            - heading "Mikado" [level=3] [ref=e1349]
+            - generic [ref=e1350]: SR
+          - paragraph [ref=e1351]: Mikado
+          - paragraph [ref=e1352]: "Tradicionalna igra pažnje i mirne ruke: izvuci štapić bez pomeranja ostalih."
+          - generic [ref=e1353]:
+            - generic [ref=e1354]: spretnost
+            - generic [ref=e1355]: klasik
+            - generic [ref=e1356]: putno
+          - generic [ref=e1357]:
+            - generic [ref=e1358]:
+              - generic [ref=e1359]: 171,70 RSD
+              - generic [ref=e1360]: Knjižare Vulkan
+            - generic [ref=e1361]:
+              - generic [ref=e1362]: Moja ocena
+              - group "Oceni Mikado" [ref=e1363]:
+                - button "1 od 5" [ref=e1364] [cursor=pointer]: ★
+                - button "2 od 5" [ref=e1365] [cursor=pointer]: ★
+                - button "3 od 5" [ref=e1366] [cursor=pointer]: ★
+                - button "4 od 5" [ref=e1367] [cursor=pointer]: ★
+                - button "5 od 5" [ref=e1368] [cursor=pointer]: ★
+            - link "Pogledaj izvor" [ref=e1369] [cursor=pointer]:
+              - /url: https://www.knjizare-vulkan.rs/tradicionalne-igre/115119-drustvena-igra-mikado
+              - img [ref=e1370]
+              - text: Pogledaj izvor
+      - article [ref=e1374]:
+        - generic [ref=e1375]:
+          - generic [ref=e1376]: Internacionalni izvor
+          - img "Mindful Talk" [ref=e1377]
+        - generic [ref=e1378]:
+          - generic [ref=e1379]:
+            - heading "Mindful Talk" [level=3] [ref=e1380]
+            - generic [ref=e1381]: EN
+          - paragraph [ref=e1382]: Mindful Talk
+          - paragraph [ref=e1383]: Špil pitanja za razgovor, emocije, refleksiju i povezivanje u porodici ili maloj grupi.
+          - generic [ref=e1384]:
+            - generic [ref=e1385]: razgovor
+            - generic [ref=e1386]: porodično
+            - generic [ref=e1387]: mindfulness
+          - generic [ref=e1388]:
+            - generic [ref=e1389]:
+              - generic [ref=e1390]: $7 (oko 800 RSD)
+              - generic [ref=e1391]: Boardgames and Puzzles
+            - generic [ref=e1392]:
+              - generic [ref=e1393]: Moja ocena
+              - group "Oceni Mindful Talk" [ref=e1394]:
+                - button "1 od 5" [ref=e1395] [cursor=pointer]: ★
+                - button "2 od 5" [ref=e1396] [cursor=pointer]: ★
+                - button "3 od 5" [ref=e1397] [cursor=pointer]: ★
+                - button "4 od 5" [ref=e1398] [cursor=pointer]: ★
+                - button "5 od 5" [ref=e1399] [cursor=pointer]: ★
+            - link "Pogledaj izvor" [ref=e1400] [cursor=pointer]:
+              - /url: https://boardgames-puzzles.com/products/mindful-talk
+              - img [ref=e1401]
+              - text: Pogledaj izvor
+      - article [ref=e1405]:
+        - generic [ref=e1406]:
+          - generic [ref=e1407]: U prodaji van Srbije
+          - img "Monopoly GO!" [ref=e1408]
+        - generic [ref=e1409]:
+          - generic [ref=e1410]:
+            - heading "Monopoly GO!" [level=3] [ref=e1411]
+            - generic [ref=e1412]: EN
+          - paragraph [ref=e1413]: Monopoly GO! Board Game
+          - paragraph [ref=e1414]: Stona verzija mobilnog Monopoly GO! iskustva, sa brzim rundama, mini tablama i gradnjom landmarka.
+          - generic [ref=e1415]:
+            - generic [ref=e1416]: porodično
+            - generic [ref=e1417]: brzo
+            - generic [ref=e1418]: Hasbro
+          - generic [ref=e1419]:
+            - generic [ref=e1420]:
+              - generic [ref=e1421]: $14.97 (oko 1.600 RSD)
+              - generic [ref=e1422]: GameStop
+            - generic [ref=e1423]:
+              - generic [ref=e1424]: Moja ocena
+              - group "Oceni Monopoly GO!" [ref=e1425]:
+                - button "1 od 5" [ref=e1426] [cursor=pointer]: ★
+                - button "2 od 5" [ref=e1427] [cursor=pointer]: ★
+                - button "3 od 5" [ref=e1428] [cursor=pointer]: ★
+                - button "4 od 5" [ref=e1429] [cursor=pointer]: ★
+                - button "5 od 5" [ref=e1430] [cursor=pointer]: ★
+            - link "Pogledaj izvor" [ref=e1431] [cursor=pointer]:
+              - /url: https://www.gamestop.com/toys-games/board-games/products/monopoly-go-board-game/20012679.html
+              - img [ref=e1432]
+              - text: Pogledaj izvor
+      - article [ref=e1436]:
+        - generic [ref=e1437]:
+          - generic [ref=e1438]: Na stanju
+          - img "Morska so i papir" [ref=e1439]
+        - generic [ref=e1440]:
+          - generic [ref=e1441]:
+            - heading "Morska so i papir" [level=3] [ref=e1442]
+            - generic [ref=e1443]: SR
+          - paragraph [ref=e1444]: Sea Salt & Paper
+          - paragraph [ref=e1445]: Džepna kartična igra sa origami ilustracijama, setovima, rizikom i savršenim tempom.
+          - generic [ref=e1446]:
+            - generic [ref=e1447]: karte
+            - generic [ref=e1448]: push your luck
+            - generic [ref=e1449]: prelepo
+          - generic [ref=e1450]:
+            - generic [ref=e1451]:
+              - generic [ref=e1452]: 1.500 RSD
+              - generic [ref=e1453]: Društvene igre
+            - generic [ref=e1454]:
+              - generic [ref=e1455]: Moja ocena
+              - group "Oceni Morska so i papir" [ref=e1456]:
+                - button "1 od 5" [ref=e1457] [cursor=pointer]: ★
+                - button "2 od 5" [ref=e1458] [cursor=pointer]: ★
+                - button "3 od 5" [ref=e1459] [cursor=pointer]: ★
+                - button "4 od 5" [ref=e1460] [cursor=pointer]: ★
+                - button "5 od 5" [ref=e1461] [cursor=pointer]: ★
+            - link "Pogledaj izvor" [ref=e1462] [cursor=pointer]:
+              - /url: https://www.drustveneigre.rs/Morska-so-i-papir-Drustvena-Igra
+              - img [ref=e1463]
+              - text: Pogledaj izvor
+      - article [ref=e1467]:
+        - generic [ref=e1468]:
+          - generic [ref=e1469]: Nema na stanju
+          - img "Mysterium Park na srpskom" [ref=e1470]
+        - generic [ref=e1471]:
+          - generic [ref=e1472]:
+            - heading "Mysterium Park na srpskom" [level=3] [ref=e1473]
+            - generic [ref=e1474]: SR
+          - paragraph [ref=e1475]: Mysterium Park
+          - paragraph [ref=e1476]: Kooperativna dedukcija kroz vizije duha u čudnom zabavnom parku.
+          - generic [ref=e1477]:
+            - generic [ref=e1478]: dedukcija
+            - generic [ref=e1479]: kooperativno
+            - generic [ref=e1480]: vizije
+          - generic [ref=e1481]:
+            - generic [ref=e1482]:
+              - generic [ref=e1483]: 3.800 RSD
+              - generic [ref=e1484]: Društvene igre
+            - generic [ref=e1485]:
+              - generic [ref=e1486]: Moja ocena
+              - group "Oceni Mysterium Park na srpskom" [ref=e1487]:
+                - button "1 od 5" [ref=e1488] [cursor=pointer]: ★
+                - button "2 od 5" [ref=e1489] [cursor=pointer]: ★
+                - button "3 od 5" [ref=e1490] [cursor=pointer]: ★
+                - button "4 od 5" [ref=e1491] [cursor=pointer]: ★
+                - button "5 od 5" [ref=e1492] [cursor=pointer]: ★
+            - link "Pogledaj izvor" [ref=e1493] [cursor=pointer]:
+              - /url: https://www.drustveneigre.rs/Mysterium-Park
+              - img [ref=e1494]
+              - text: Pogledaj izvor
+      - article [ref=e1498]:
+        - generic [ref=e1499]:
+          - generic [ref=e1500]: Na stanju
+          - img "Pandemic" [ref=e1501]
+        - generic [ref=e1502]:
+          - generic [ref=e1503]:
+            - heading "Pandemic" [level=3] [ref=e1504]
+            - generic [ref=e1505]: SR/EN
+          - paragraph [ref=e1506]: Pandemic
+          - paragraph [ref=e1507]: "Kooperativni klasik: tim stručnjaka pokušava da zaustavi epidemije pre nego što svet izmakne kontroli."
+          - generic [ref=e1508]:
+            - generic [ref=e1509]: kooperativno
+            - generic [ref=e1510]: klasik
+            - generic [ref=e1511]: porodično
+          - generic [ref=e1512]:
+            - generic [ref=e1513]:
+              - generic [ref=e1514]: 6.000 RSD
+              - generic [ref=e1515]: Društvene igre
+            - generic [ref=e1516]:
+              - generic [ref=e1517]: Moja ocena
+              - group "Oceni Pandemic" [ref=e1518]:
+                - button "1 od 5" [ref=e1519] [cursor=pointer]: ★
+                - button "2 od 5" [ref=e1520] [cursor=pointer]: ★
+                - button "3 od 5" [ref=e1521] [cursor=pointer]: ★
+                - button "4 od 5" [ref=e1522] [cursor=pointer]: ★
+                - button "5 od 5" [ref=e1523] [cursor=pointer]: ★
+            - link "Pogledaj izvor" [ref=e1524] [cursor=pointer]:
+              - /url: https://www.drustveneigre.rs/Pandemic
+              - img [ref=e1525]
+              - text: Pogledaj izvor
+      - article [ref=e1529]:
+        - generic [ref=e1530]:
+          - generic [ref=e1531]: Nema na stanju
+          - 'img "Pandemic: Hot Zone - North America" [ref=e1532]'
+        - generic [ref=e1533]:
+          - generic [ref=e1534]:
+            - 'heading "Pandemic: Hot Zone - North America" [level=3] [ref=e1535]'
+            - generic [ref=e1536]: EN
+          - paragraph [ref=e1537]: "Pandemic: Hot Zone - North America"
+          - paragraph [ref=e1538]: Kompaktna, brža verzija Pandemic sistema, fokusirana na Severnu Ameriku.
+          - generic [ref=e1539]:
+            - generic [ref=e1540]: kooperativno
+            - generic [ref=e1541]: kompaktno
+            - generic [ref=e1542]: Pandemic
+          - generic [ref=e1543]:
+            - generic [ref=e1544]:
+              - generic [ref=e1545]: 3.000 RSD
+              - generic [ref=e1546]: Društvene igre
+            - generic [ref=e1547]:
+              - generic [ref=e1548]: Moja ocena
+              - 'group "Oceni Pandemic: Hot Zone - North America" [ref=e1549]':
+                - button "1 od 5" [ref=e1550] [cursor=pointer]: ★
+                - button "2 od 5" [ref=e1551] [cursor=pointer]: ★
+                - button "3 od 5" [ref=e1552] [cursor=pointer]: ★
+                - button "4 od 5" [ref=e1553] [cursor=pointer]: ★
+                - button "5 od 5" [ref=e1554] [cursor=pointer]: ★
+            - link "Pogledaj izvor" [ref=e1555] [cursor=pointer]:
+              - /url: https://www.drustveneigre.rs/Pandemic-Hot-Zone-North-America
+              - img [ref=e1556]
+              - text: Pogledaj izvor
+      - article [ref=e1560]:
+        - generic [ref=e1561]:
+          - generic [ref=e1562]: Internacionalni izvor
+          - img "Pip Cards" [ref=e1563]
+        - generic [ref=e1564]:
+          - generic [ref=e1565]:
+            - heading "Pip Cards" [level=3] [ref=e1566]
+            - generic [ref=e1567]: EN
+          - paragraph [ref=e1568]: "Pip Decks: Storyteller Tactics"
+          - paragraph [ref=e1569]: Profesionalni špil taktika i promptova za pričanje priča, radionice i prezentacije.
+          - generic [ref=e1570]:
+            - generic [ref=e1571]: karte
+            - generic [ref=e1572]: pričanje
+            - generic [ref=e1573]: alat
+          - generic [ref=e1574]:
+            - generic [ref=e1575]:
+              - generic [ref=e1576]: £125 (oko 15.500 RSD)
+              - generic [ref=e1577]: Pip Decks
+            - generic [ref=e1578]:
+              - generic [ref=e1579]: Moja ocena
+              - group "Oceni Pip Cards" [ref=e1580]:
+                - button "1 od 5" [ref=e1581] [cursor=pointer]: ★
+                - button "2 od 5" [ref=e1582] [cursor=pointer]: ★
+                - button "3 od 5" [ref=e1583] [cursor=pointer]: ★
+                - button "4 od 5" [ref=e1584] [cursor=pointer]: ★
+                - button "5 od 5" [ref=e1585] [cursor=pointer]: ★
+            - link "Pogledaj izvor" [ref=e1586] [cursor=pointer]:
+              - /url: https://pipdecks.com/products/storyteller-tactics
+              - img [ref=e1587]
+              - text: Pogledaj izvor
+      - article [ref=e1591]:
+        - generic [ref=e1592]:
+          - generic [ref=e1593]: Nema na stanju
+          - img "Port Rojal" [ref=e1594]
+        - generic [ref=e1595]:
+          - generic [ref=e1596]:
+            - heading "Port Rojal" [level=3] [ref=e1597]
+            - generic [ref=e1598]: SR
+          - paragraph [ref=e1599]: Port Royal
+          - paragraph [ref=e1600]: "Kartični piratski push-your-luck: povuci još jednu kartu ili stani dok je luka još pod kontrolom."
+          - generic [ref=e1601]:
+            - generic [ref=e1602]: karte
+            - generic [ref=e1603]: rizik
+            - generic [ref=e1604]: pirati
+          - generic [ref=e1605]:
+            - generic [ref=e1606]:
+              - generic [ref=e1607]: 1.500 RSD
+              - generic [ref=e1608]: Društvene igre
+            - generic [ref=e1609]:
+              - generic [ref=e1610]: Moja ocena
+              - group "Oceni Port Rojal" [ref=e1611]:
+                - button "1 od 5" [ref=e1612] [cursor=pointer]: ★
+                - button "2 od 5" [ref=e1613] [cursor=pointer]: ★
+                - button "3 od 5" [ref=e1614] [cursor=pointer]: ★
+                - button "4 od 5" [ref=e1615] [cursor=pointer]: ★
+                - button "5 od 5" [ref=e1616] [cursor=pointer]: ★
+            - link "Pogledaj izvor" [ref=e1617] [cursor=pointer]:
+              - /url: https://www.drustveneigre.rs/Port-Royal
+              - img [ref=e1618]
+              - text: Pogledaj izvor
+      - article [ref=e1622]:
+        - generic [ref=e1623]:
+          - generic [ref=e1624]: Na stanju kod drugog izvora
+          - 'img "Posada: Misija Duboko more" [ref=e1625]'
+        - generic [ref=e1626]:
+          - generic [ref=e1627]:
+            - 'heading "Posada: Misija Duboko more" [level=3] [ref=e1628]'
+            - generic [ref=e1629]: SR
+          - paragraph [ref=e1630]: "The Crew: Mission Deep Sea"
+          - paragraph [ref=e1631]: Kooperativna igra uzimanja štihova kroz misije u potrazi za izgubljenim kontinentom Mu.
+          - generic [ref=e1632]:
+            - generic [ref=e1633]: kooperativno
+            - generic [ref=e1634]: karte
+            - generic [ref=e1635]: misije
+          - generic [ref=e1636]:
+            - generic [ref=e1637]:
+              - generic [ref=e1638]: 1.990 RSD
+              - generic [ref=e1639]: Bottle Gnome
+            - generic [ref=e1640]:
+              - generic [ref=e1641]: Moja ocena
+              - 'group "Oceni Posada: Misija Duboko more" [ref=e1642]':
+                - button "1 od 5" [ref=e1643] [cursor=pointer]: ★
+                - button "2 od 5" [ref=e1644] [cursor=pointer]: ★
+                - button "3 od 5" [ref=e1645] [cursor=pointer]: ★
+                - button "4 od 5" [ref=e1646] [cursor=pointer]: ★
+                - button "5 od 5" [ref=e1647] [cursor=pointer]: ★
+            - link "Pogledaj izvor" [ref=e1648] [cursor=pointer]:
+              - /url: https://gnom.rs/posada-misija-duboko-more-srpski-rs
+              - img [ref=e1649]
+              - text: Pogledaj izvor
+      - article [ref=e1653]:
+        - generic [ref=e1654]:
+          - generic [ref=e1655]: Na stanju
+          - img "Srpsko carstvo" [ref=e1656]
+        - generic [ref=e1657]:
+          - generic [ref=e1658]:
+            - heading "Srpsko carstvo" [level=3] [ref=e1659]
+            - generic [ref=e1660]: SR
+          - paragraph [ref=e1661]: Srpsko carstvo
+          - paragraph [ref=e1662]: Domaća igra sa posedima srpskih velikaških porodica, kockicama i osvajanjem utvrđenja.
+          - generic [ref=e1663]:
+            - generic [ref=e1664]: srpsko
+            - generic [ref=e1665]: kockice
+            - generic [ref=e1666]: porodično
+          - generic [ref=e1667]:
+            - generic [ref=e1668]:
+              - generic [ref=e1669]: 2.319 RSD
+              - generic [ref=e1670]: Dice Arena
+            - generic [ref=e1671]:
+              - generic [ref=e1672]: Moja ocena
+              - group "Oceni Srpsko carstvo" [ref=e1673]:
+                - button "1 od 5" [ref=e1674] [cursor=pointer]: ★
+                - button "2 od 5" [ref=e1675] [cursor=pointer]: ★
+                - button "3 od 5" [ref=e1676] [cursor=pointer]: ★
+                - button "4 od 5" [ref=e1677] [cursor=pointer]: ★
+                - button "5 od 5" [ref=e1678] [cursor=pointer]: ★
+            - link "Pogledaj izvor" [ref=e1679] [cursor=pointer]:
+              - /url: https://dicearena.rs/product/srpsko-carstvo/
+              - img [ref=e1680]
+              - text: Pogledaj izvor
+      - article [ref=e1684]:
+        - generic [ref=e1685]:
+          - generic [ref=e1686]: Nema na zalihama
+          - img "Sushi Go" [ref=e1687]
+        - generic [ref=e1688]:
+          - generic [ref=e1689]:
+            - heading "Sushi Go" [level=3] [ref=e1690]
+            - generic [ref=e1691]: SR
+          - paragraph [ref=e1692]: Sushi Go!
+          - paragraph [ref=e1693]: Brza draft igra sa preslatkim sušijem, setovima i tri runde taktičnog prosleđivanja karata.
+          - generic [ref=e1694]:
+            - generic [ref=e1695]: draft
+            - generic [ref=e1696]: karte
+            - generic [ref=e1697]: porodično
+          - generic [ref=e1698]:
+            - generic [ref=e1699]:
+              - generic [ref=e1700]: 1.800 RSD
+              - generic [ref=e1701]: Mini Mondo
+            - generic [ref=e1702]:
+              - generic [ref=e1703]: Moja ocena
+              - group "Oceni Sushi Go" [ref=e1704]:
+                - button "1 od 5" [ref=e1705] [cursor=pointer]: ★
+                - button "2 od 5" [ref=e1706] [cursor=pointer]: ★
+                - button "3 od 5" [ref=e1707] [cursor=pointer]: ★
+                - button "4 od 5" [ref=e1708] [cursor=pointer]: ★
+                - button "5 od 5" [ref=e1709] [cursor=pointer]: ★
+            - link "Pogledaj izvor" [ref=e1710] [cursor=pointer]:
+              - /url: https://www.minimondo.rs/product/sushi-go/
+              - img [ref=e1711]
+              - text: Pogledaj izvor
+      - article [ref=e1715]:
+        - generic [ref=e1716]:
+          - generic [ref=e1717]: Nema na stanju
+          - img "Takenoko" [ref=e1718]
+        - generic [ref=e1719]:
+          - generic [ref=e1720]:
+            - heading "Takenoko" [level=3] [ref=e1721]
+            - generic [ref=e1722]: EN
+          - paragraph [ref=e1723]: Takenoko
+          - paragraph [ref=e1724]: Baštovan, panda, bambus i prelepa taktička porodična igra sa mnogo šarma.
+          - generic [ref=e1725]:
+            - generic [ref=e1726]: porodično
+            - generic [ref=e1727]: taktički
+            - generic [ref=e1728]: bambus
+          - generic [ref=e1729]:
+            - generic [ref=e1730]:
+              - generic [ref=e1731]: 5.300 RSD
+              - generic [ref=e1732]: Društvene igre
+            - generic [ref=e1733]:
+              - generic [ref=e1734]: Moja ocena
+              - group "Oceni Takenoko" [ref=e1735]:
+                - button "1 od 5" [ref=e1736] [cursor=pointer]: ★
+                - button "2 od 5" [ref=e1737] [cursor=pointer]: ★
+                - button "3 od 5" [ref=e1738] [cursor=pointer]: ★
+                - button "4 od 5" [ref=e1739] [cursor=pointer]: ★
+                - button "5 od 5" [ref=e1740] [cursor=pointer]: ★
+            - link "Pogledaj izvor" [ref=e1741] [cursor=pointer]:
+              - /url: https://www.drustveneigre.rs/Takenoko
+              - img [ref=e1742]
+              - text: Pogledaj izvor
+      - article [ref=e1746]:
+        - generic [ref=e1747]:
+          - generic [ref=e1748]: Na stanju
+          - img "Tako Cica Koza Sir Pica" [ref=e1749]
+        - generic [ref=e1750]:
+          - generic [ref=e1751]:
+            - heading "Tako Cica Koza Sir Pica" [level=3] [ref=e1752]
+            - generic [ref=e1753]: SR
+          - paragraph [ref=e1754]: Taco Cat Goat Cheese Pizza
+          - paragraph [ref=e1755]: Brza refleksna igra za sto, glas i dlanove. Kažeš redom, udaraš kad se poklopi.
+          - generic [ref=e1756]:
+            - generic [ref=e1757]: party
+            - generic [ref=e1758]: refleksi
+            - generic [ref=e1759]: brzo
+          - generic [ref=e1760]:
+            - generic [ref=e1761]:
+              - generic [ref=e1762]: 1.500 RSD
+              - generic [ref=e1763]: Društvene igre
+            - generic [ref=e1764]:
+              - generic [ref=e1765]: Moja ocena
+              - group "Oceni Tako Cica Koza Sir Pica" [ref=e1766]:
+                - button "1 od 5" [ref=e1767] [cursor=pointer]: ★
+                - button "2 od 5" [ref=e1768] [cursor=pointer]: ★
+                - button "3 od 5" [ref=e1769] [cursor=pointer]: ★
+                - button "4 od 5" [ref=e1770] [cursor=pointer]: ★
+                - button "5 od 5" [ref=e1771] [cursor=pointer]: ★
+            - link "Pogledaj izvor" [ref=e1772] [cursor=pointer]:
+              - /url: https://www.drustveneigre.rs/Tako-Cica-Koza-Sir-Pica
+              - img [ref=e1773]
+              - text: Pogledaj izvor
+      - article [ref=e1777]:
+        - generic [ref=e1778]:
+          - generic [ref=e1779]: Nema na stanju
+          - img "The Game" [ref=e1780]
+        - generic [ref=e1781]:
+          - generic [ref=e1782]:
+            - heading "The Game" [level=3] [ref=e1783]
+            - generic [ref=e1784]: SR
+          - paragraph [ref=e1785]: The Game
+          - paragraph [ref=e1786]: Tim pokušava da spusti 98 karata na četiri niza. Pravila su laka, igra baš i nije.
+          - generic [ref=e1787]:
+            - generic [ref=e1788]: kooperativno
+            - generic [ref=e1789]: karte
+            - generic [ref=e1790]: kratko
+          - generic [ref=e1791]:
+            - generic [ref=e1792]:
+              - generic [ref=e1793]: 1.500 RSD
+              - generic [ref=e1794]: Društvene igre
+            - generic [ref=e1795]:
+              - generic [ref=e1796]: Moja ocena
+              - group "Oceni The Game" [ref=e1797]:
+                - button "1 od 5" [ref=e1798] [cursor=pointer]: ★
+                - button "2 od 5" [ref=e1799] [cursor=pointer]: ★
+                - button "3 od 5" [ref=e1800] [cursor=pointer]: ★
+                - button "4 od 5" [ref=e1801] [cursor=pointer]: ★
+                - button "5 od 5" [ref=e1802] [cursor=pointer]: ★
+            - link "Pogledaj izvor" [ref=e1803] [cursor=pointer]:
+              - /url: https://www.drustveneigre.rs/The-Game
+              - img [ref=e1804]
+              - text: Pogledaj izvor
+      - article [ref=e1808]:
+        - generic [ref=e1809]:
+          - generic [ref=e1810]: Nema na stanju
+          - img "The Grimm Masquerade" [ref=e1811]
+        - generic [ref=e1812]:
+          - generic [ref=e1813]:
+            - heading "The Grimm Masquerade" [level=3] [ref=e1814]
+            - generic [ref=e1815]: EN
+          - paragraph [ref=e1816]: The Grimm Masquerade
+          - paragraph [ref=e1817]: "Blef i dedukcija u bajkovitom maskenbalu: sakupi artefakte i sakrij svoj identitet."
+          - generic [ref=e1818]:
+            - generic [ref=e1819]: dedukcija
+            - generic [ref=e1820]: blef
+            - generic [ref=e1821]: bajke
+          - generic [ref=e1822]:
+            - generic [ref=e1823]:
+              - generic [ref=e1824]: 3.000 RSD
+              - generic [ref=e1825]: Društvene igre
+            - generic [ref=e1826]:
+              - generic [ref=e1827]: Moja ocena
+              - group "Oceni The Grimm Masquerade" [ref=e1828]:
+                - button "1 od 5" [ref=e1829] [cursor=pointer]: ★
+                - button "2 od 5" [ref=e1830] [cursor=pointer]: ★
+                - button "3 od 5" [ref=e1831] [cursor=pointer]: ★
+                - button "4 od 5" [ref=e1832] [cursor=pointer]: ★
+                - button "5 od 5" [ref=e1833] [cursor=pointer]: ★
+            - link "Pogledaj izvor" [ref=e1834] [cursor=pointer]:
+              - /url: https://www.drustveneigre.rs/The-Grimm-Masquerade
+              - img [ref=e1835]
+              - text: Pogledaj izvor
+      - article [ref=e1839]:
+        - generic [ref=e1840]:
+          - generic [ref=e1841]: Nema na stanju
+          - img "The Mind" [ref=e1842]
+        - generic [ref=e1843]:
+          - generic [ref=e1844]:
+            - heading "The Mind" [level=3] [ref=e1845]
+            - generic [ref=e1846]: SR
+          - paragraph [ref=e1847]: The Mind
+          - paragraph [ref=e1848]: "Kooperativni eksperiment tišine: odigrajte karte u rastućem redosledu bez dogovaranja."
+          - generic [ref=e1849]:
+            - generic [ref=e1850]: kooperativno
+            - generic [ref=e1851]: tišina
+            - generic [ref=e1852]: karte
+          - generic [ref=e1853]:
+            - generic [ref=e1854]:
+              - generic [ref=e1855]: 1.500 RSD
+              - generic [ref=e1856]: Društvene igre
+            - generic [ref=e1857]:
+              - generic [ref=e1858]: Moja ocena
+              - group "Oceni The Mind" [ref=e1859]:
+                - button "1 od 5" [ref=e1860] [cursor=pointer]: ★
+                - button "2 od 5" [ref=e1861] [cursor=pointer]: ★
+                - button "3 od 5" [ref=e1862] [cursor=pointer]: ★
+                - button "4 od 5" [ref=e1863] [cursor=pointer]: ★
+                - button "5 od 5" [ref=e1864] [cursor=pointer]: ★
+            - link "Pogledaj izvor" [ref=e1865] [cursor=pointer]:
+              - /url: https://www.drustveneigre.rs/The-Mind
+              - img [ref=e1866]
+              - text: Pogledaj izvor
+      - article [ref=e1870]:
+        - generic [ref=e1871]:
+          - generic [ref=e1872]: Na stanju
+          - img "UNO karte" [ref=e1873]
+        - generic [ref=e1874]:
+          - generic [ref=e1875]:
+            - heading "UNO karte" [level=3] [ref=e1876]
+            - generic [ref=e1877]: SR
+          - paragraph [ref=e1878]: UNO
+          - paragraph [ref=e1879]: "Brza kartaška klasika: uklopi boju ili broj i ne zaboravi da kažeš UNO."
+          - generic [ref=e1880]:
+            - generic [ref=e1881]: karte
+            - generic [ref=e1882]: porodično
+            - generic [ref=e1883]: klasik
+          - generic [ref=e1884]:
+            - generic [ref=e1885]:
+              - generic [ref=e1886]: 999 RSD
+              - generic [ref=e1887]: Dice Arena
+            - generic [ref=e1888]:
+              - generic [ref=e1889]: Moja ocena
+              - group "Oceni UNO karte" [ref=e1890]:
+                - button "1 od 5" [ref=e1891] [cursor=pointer]: ★
+                - button "2 od 5" [ref=e1892] [cursor=pointer]: ★
+                - button "3 od 5" [ref=e1893] [cursor=pointer]: ★
+                - button "4 od 5" [ref=e1894] [cursor=pointer]: ★
+                - button "5 od 5" [ref=e1895] [cursor=pointer]: ★
+            - link "Pogledaj izvor" [ref=e1896] [cursor=pointer]:
+              - /url: https://dicearena.rs/product/uno-karte-standard/
+              - img [ref=e1897]
+              - text: Pogledaj izvor
+      - article [ref=e1901]:
+        - generic [ref=e1902]:
+          - generic [ref=e1903]: Na stanju
+          - img "Zemlja" [ref=e1904]
+        - generic [ref=e1905]:
+          - generic [ref=e1906]:
+            - heading "Zemlja" [level=3] [ref=e1907]
+            - generic [ref=e1908]: SR
+          - paragraph [ref=e1909]: Earth
+          - paragraph [ref=e1910]: Strateška igra u kojoj gradite ostrvo, ekosistem i motor poena kroz pametno biranje akcija.
+          - generic [ref=e1911]:
+            - generic [ref=e1912]: strategija
+            - generic [ref=e1913]: engine
+            - generic [ref=e1914]: priroda
+          - generic [ref=e1915]:
+            - generic [ref=e1916]:
+              - generic [ref=e1917]: 5.400 RSD
+              - generic [ref=e1918]: Društvene igre
+            - generic [ref=e1919]:
+              - generic [ref=e1920]: Moja ocena
+              - group "Oceni Zemlja" [ref=e1921]:
+                - button "1 od 5" [ref=e1922] [cursor=pointer]: ★
+                - button "2 od 5" [ref=e1923] [cursor=pointer]: ★
+                - button "3 od 5" [ref=e1924] [cursor=pointer]: ★
+                - button "4 od 5" [ref=e1925] [cursor=pointer]: ★
+                - button "5 od 5" [ref=e1926] [cursor=pointer]: ★
+            - link "Pogledaj izvor" [ref=e1927] [cursor=pointer]:
+              - /url: https://www.drustveneigre.rs/Zemlja-Drustvena-Igra
+              - img [ref=e1928]
+              - text: Pogledaj izvor
