@@ -180,6 +180,21 @@ const games = [
     sourceLocale: "english"
   },
   {
+    id: "anonymous-cyber-hunt",
+    title: "Anonymous Cyber Hunt",
+    originalTitle: "Anonymous Cyber Hunt",
+    language: "EN/PT",
+    status: "Regionalna cena",
+    price: 2930,
+    priceLabel: "24,99 EUR (oko 2.930 RSD)",
+    sourceName: "Creative Toys",
+    sourceUrl: "https://creativetoys.pt/en/products/anonymous-cyber-hunt",
+    image: "https://creativetoys.pt/cdn/shop/files/7086d43022c12cadd59da9d3a2c7eef8.png?v=1761152719",
+    description: "Dedukciona igra u kojoj ste hakeri: otkrijte identitet, lokaciju i metu protivnika bez razotkrivanja sopstvenog profila.",
+    tags: ["dedukcija", "hakeri", "porodično"],
+    sourceLocale: "regional"
+  },
+  {
     id: "grimm-masquerade",
     title: "The Grimm Masquerade",
     originalTitle: "The Grimm Masquerade",
@@ -313,6 +328,21 @@ const games = [
     description: "Izgradnja grada i izbor likova, sa blefom i malim ratom oko toga ko će kome pokvariti plan.",
     tags: ["karte", "blef", "gradnja"],
     sourceLocale: "serbian"
+  },
+  {
+    id: "citadels-classic",
+    title: "Citadels Classic",
+    originalTitle: "Citadelles - Edition Classique",
+    language: "FR/EN",
+    status: "Regionalna cena",
+    price: 1870,
+    priceLabel: "15,90 EUR (oko 1.870 RSD)",
+    sourceName: "Playin",
+    sourceUrl: "https://www.play-in.com/produit/202132-citadelles_-_Edition_classique",
+    image: "https://www.ludijeux.fr/cdn/shop/products/citadelles-edition-classique-asmodee-ludijeux-parthenay_1024x1024.jpg?v=1666615309",
+    description: "Klasično izdanje Citadels/Citadelles: tajni izbor likova, blef i gradnja srednjovekovne četvrti kroz nekoliko napetih rundi.",
+    tags: ["karte", "blef", "original"],
+    sourceLocale: "regional"
   },
   {
     id: "uno",
@@ -451,6 +481,41 @@ const games = [
   }
 ];
 
+const manualLinks = {
+  "cards-against-humanity": "https://s3.amazonaws.com/cah/CAH_Rules.pdf",
+  "zemlja": "https://insideupgames.com/earth-rules-faq-and-card-index/",
+  "pandemic": "https://images-cdn.zmangames.com/us-east-1/filer_public/25/12/251252dd-1338-4f78-b90d-afe073c72363/zm7101_pandemic_rules.pdf",
+  "7-wonders-duel": "https://images-cdn.asmodee.us/filer_public/58/27/5827c513-0390-4d78-aa95-4ae8ba89ad36/seven07_rules.pdf",
+  "codenames": "https://www.czechgames.com/files/rules/codenames-rules-en.pdf",
+  "jenga": "https://instructions.hasbro.com/en-us/instruction/classic-jenga",
+  "srpsko-carstvo": "https://dicearena.rs/product/srpsko-carstvo/",
+  "morska-so-i-papir": "https://studiobombyx.com/en/jeu/sea-salt-paper/",
+  "port-royal": "https://pegasus.de/NetiMedia/download?mediaId=018e5c281ab8701bae289279c83083d5",
+  "mikado": "https://www.mastersofgames.com/rules/mikado-rules.htm",
+  "tako-cica": "https://dolphinhat.com/product/taco-cat-goat-cheese-pizza-2/",
+  "monopoly-go": "https://shop.hasbro.com/en-us/product/monopoly-go/68098185-466A-4CE8-83EA-60C93EDCCB76",
+  "anonymous-cyber-hunt": "https://creativelive.games/wp-content/uploads/2025/08/Anonymous-RulesCards-Tablets.pdf",
+  "grimm-masquerade": "https://www.ultraboardgames.com/the-grimm-masquerade/game-rules.php",
+  "mysterium-park": "https://www.libellud.com/en/our-games/mysterium-park/",
+  "carcassonne": "https://www.zmangames.com/en/products/carcassonne/",
+  "takenoko": "https://studiobombyx.com/assets/TAKENOKO_rulebook_EN.pdf",
+  "heraldica": "https://nastol.io/heraldica",
+  "codenames-duet": "https://czechgames.com/files/rules/codenames-duet-rules-en.pdf",
+  "posada-duboko-more": "https://www.thamesandkosmos.com/manuals/full/691869_Crew_Deep%20Sea_Manual.pdf",
+  "hot-zone-north-america": "https://images.zmangames.com/filer_public/28/27/282708b6-502a-4112-abbb-2623349d0fe3/pandemic-hotzone-na_rules.pdf",
+  "citadele": "https://images-cdn.fantasyflightgames.com/ffg_content/Citadels/citadelsrules.pdf",
+  "citadels-classic": "https://images-cdn.fantasyflightgames.com/ffg_content/Citadels/citadelsrules.pdf",
+  "uno": "https://service.mattel.com/instruction_sheets/42001pr.pdf",
+  "illusion": "https://www.nsv.de/wp-content/uploads/2024/04/Illusion_I.pdf",
+  "the-mind": "https://pandasaurusgames.com/products/the-mind",
+  "the-game": "https://pandasaurusgames.com/products/the-game-kwanchai-moriya-edition",
+  "bandida": "https://helvetiq.com/fr/bandida",
+  "bandido": "https://helvetiq.com/media/hexaattachment/products/attachments/bandido_rules_WEB.pdf",
+  "sushi-go": "https://gamewright.com/pdfs/Rules/SushiGoTM-RULES.pdf",
+  "mindful-talk": "https://boardgames-puzzles.com/products/mindful-talk",
+  "pip-cards": "https://pipdecks.com/blogs/storytelling/getting-started-with-storyteller-tactics"
+};
+
 const ratingKey = "board-game-collection-ratings-v1";
 const state = {
   search: "",
@@ -547,6 +612,7 @@ function renderGameCard(game) {
   const rating = state.ratings[game.id] || 0;
   const languageClass = game.language.includes("SR") ? "" : " en";
   const stockClass = isInStock(game) ? "" : " out";
+  const manualUrl = manualLinks[game.id] || game.sourceUrl;
 
   return `
     <article class="game-card" data-id="${game.id}">
@@ -583,10 +649,16 @@ function renderGameCard(game) {
               `).join("")}
             </div>
           </div>
-          <a class="source-link" href="${game.sourceUrl}" target="_blank" rel="noopener noreferrer">
-            <i data-lucide="external-link"></i>
-            Pogledaj izvor
-          </a>
+          <div class="card-links">
+            <a class="source-link" href="${game.sourceUrl}" target="_blank" rel="noopener noreferrer">
+              <i data-lucide="external-link"></i>
+              Pogledaj izvor
+            </a>
+            <a class="manual-link" href="${manualUrl}" target="_blank" rel="noopener noreferrer">
+              <i data-lucide="book-open-text"></i>
+              Pravila
+            </a>
+          </div>
         </div>
       </div>
     </article>
