@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="sr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Moja biblioteka</title>
+    <meta
+      name="description"
+      content="Vizuelni katalog lične biblioteke sa koricama, autorima, grupisanjem i izvozom u tekstualni fajl."
+    >
+    <link rel="preconnect" href="https://laguna.oozmi-cdn.com">
+    <link rel="preconnect" href="https://www.knjizare-vulkan.rs">
+    <link rel="preconnect" href="https://m.media-amazon.com">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%238a3b3b'/%3E%3Cpath d='M16 14h13a4 4 0 0 1 4 4v32a3 3 0 0 0-3-3H16z' fill='%23fff'/%3E%3Cpath d='M48 14H35a4 4 0 0 0-4 4v32a3 3 0 0 1 3-3h14z' fill='%23f0e2c4'/%3E%3C/svg%3E">
+    <link rel="stylesheet" href="books.css">
+    <script src="https://unpkg.com/lucide@latest" defer></script>
+    <script src="books.js" defer></script>
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Lična polica • ažurirano 19.06.2026.</p>
+          <h1>Moja biblioteka</h1>
+          <p class="hero-text">
+            Vizuelni katalog knjiga sa koricama, autorima i izvorima. Grupiši po kategoriji, autoru, jeziku ili oceni, pretraži po čemu god želiš i izvezi celu kolekciju u tekstualni fajl.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-link" href="#katalog">
+              <i data-lucide="library"></i>
+              Pogledaj biblioteku
+            </a>
+            <button class="ghost-button" id="exportLibrary" type="button">
+              <i data-lucide="download"></i>
+              Izvezi kao .txt
+            </button>
+            <button class="ghost-button" id="resetRatings" type="button">
+              <i data-lucide="rotate-ccw"></i>
+              Resetuj ocene
+            </button>
+            <a class="ghost-button" href="index.html">
+              <i data-lucide="dices"></i>
+              Društvene igre
+            </a>
+          </div>
+        </div>
+
+        <div class="cover-rail" aria-label="Izabrane korice iz biblioteke">
+          <img src="https://laguna.oozmi-cdn.com/images/e4ff9d4d-1f52-407d-9f99-dd2ed423cc4d/leonardo-da-vinci-volter-ajzakson-m-w1200.webp" alt="Leonardo da Vinči">
+          <img src="https://laguna.oozmi-cdn.com/images/51cd07ad-209e-4fae-a0a9-299699fedd4a/Moc-geografije-w1200.webp" alt="Moć geografije">
+          <img src="https://www.knjizare-vulkan.rs/files/thumbs/files/images/slike_proizvoda/thumbs_1200/296713_1200_1200px.jpg.webp" alt="48 zakona moći">
+          <img src="https://laguna.oozmi-cdn.com/images/206ecdf0-e9bb-4d2a-b639-ad421c096115/Hotel-Portofino-w1200.webp" alt="Hotel Portofino">
+        </div>
+      </header>
+
+      <section class="summary" aria-label="Sažetak biblioteke">
+        <div>
+          <span id="totalBooks">0</span>
+          <p>Knjiga</p>
+        </div>
+        <div>
+          <span id="totalCategories">0</span>
+          <p>Kategorija</p>
+        </div>
+        <div>
+          <span id="totalAuthors">0</span>
+          <p>Autora</p>
+        </div>
+        <div>
+          <span id="ratedBooks">0</span>
+          <p>Ocenjeno</p>
+        </div>
+      </section>
+
+      <main id="katalog" class="collection">
+        <section class="toolbar" aria-label="Pretraga, grupisanje i sortiranje">
+          <label class="search-box">
+            <i data-lucide="search"></i>
+            <input id="searchInput" type="search" placeholder="Pretraži naslov, autora ili kategoriju">
+          </label>
+
+          <label class="control-box">
+            <i data-lucide="layers"></i>
+            <select id="groupSelect" aria-label="Grupiši po">
+              <option value="category">Grupiši: po kategoriji</option>
+              <option value="author">Grupiši: po autoru</option>
+              <option value="language">Grupiši: po jeziku</option>
+              <option value="rating">Grupiši: po oceni</option>
+              <option value="none">Bez grupisanja</option>
+            </select>
+          </label>
+
+          <label class="control-box">
+            <i data-lucide="arrow-up-down"></i>
+            <select id="sortSelect" aria-label="Sortiraj">
+              <option value="title">Sortiraj: naslov A-Š</option>
+              <option value="author">Sortiraj: autor A-Š</option>
+              <option value="ratingDesc">Sortiraj: moja ocena</option>
+            </select>
+          </label>
+        </section>
+
+        <section class="collection-meta">
+          <h2>Katalog</h2>
+          <p id="resultCount">0 knjiga</p>
+        </section>
+
+        <div id="library"></div>
+      </main>
+    </div>
+  </body>
+</html>
